@@ -12,44 +12,55 @@
 </div>
 
 ----
-## ❓ 什么是AVA
-[AVA](https://github.com/antvis/AVA)（<img src="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*QzIsSrfsCW0AAAAAAAAAAAAADmJ7AQ/original" width="16"> Visual Analytics）是为了更简便的可视分析而生的技术框架。第一个 **A** 具有多重涵义：智能驱动（*AI driven*）、自动化（*Automated*）、支持增强分析（*Augmented*）, **VA** 代表可视分析。它可以辅助用户进行**数据处理**、提取**数据洞察**、实现**图表的推荐和自动生成**，此外它还可以**优化已有的图表**。
+
+## ❓ 什么是 AVA
+
+[AVA](https://github.com/antvis/AVA)（<img src="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*QzIsSrfsCW0AAAAAAAAAAAAADmJ7AQ/original" width="16" alt="AVA examples"> Visual Analytics）是为了更简便的可视分析而生的技术框架。第一个 **A** 具有多重涵义：智能驱动（*AI driven*）、自动化（*Automated*）、支持增强分析（*Augmented*）, **VA** 代表可视分析。它可以辅助用户进行**数据处理**、提取**数据洞察**、实现**图表的推荐和自动生成**，此外它还可以**优化已有的图表**。
 <br />
 
 <div align="center">
   <img width="800" src="https://mdn.alipayobjects.com/huamei_kjfwsg/afts/img/A*wpo3RpdULnAAAAAAAAAAAAAADvmcAQ/original" alt="AVA pipeline">
 </div>
 
-## 📁 AVA的组成
-AVA包含2个包，分别为 [@antv/ava](https://www.npmjs.com/package/@antv/ava) 和 [@antv/ava-react](https://www.npmjs.com/package/@antv/ava-react)：
-+ [@antv/ava](https://www.npmjs.com/package/@antv/ava) ：AVA核心包，包含四大主要模块：
-  + **data (数据处理)** ：数据处理器。用于数据集统计分析和处理。
-  + **insight (智能洞察)**：自动洞察器。自动地从多维数据中发现数据洞察。
-  + **ckb (图表知识库)**：图表知识库。基于经验总结的关于可视化和图表的各种基本知识和观察，它是智能图表推荐的基石。
-  + **advisor (图表推荐和自动生成)**：图表建议官。基于数据和分析需求来推荐图表类型和具体的图表细节设置，也可对既有的图表进行图表优化。
-+ [@antv/ava-react](https://www.npmjs.com/package/@antv/ava-react)：React 组件库，提供了解读文本模块 NTV 的组件。在数据分析的全流程展示中，使用文本描述数据现象和给出洞察结论同样是非常关键的，NTV就是针对该场景的解决方案，它可以完成数据分析解读文本的展示。
+## 📁 AVA 的组成
 
-## ✨ AVA的特性
-- 智能式驱动：集自动化、智能化于一体，简化可视分析过程。
-- 丰富的功能：其功能覆盖数据分析全过程，链接人和数据，联通数据分析链条上的“最后一公里”。
-- 灵活的语法：内置丰富的配置项，支持自定义。
+AVA 包含2个包，分别为 [@antv/ava](https://www.npmjs.com/package/@antv/ava) 和 [@antv/ava-react](https://www.npmjs.com/package/@antv/ava-react)：
+
+* [@antv/ava](https://www.npmjs.com/package/@antv/ava) ：AVA 核心包，包含四大主要模块：
+  * **data (数据处理)** ：数据处理器。用于数据集统计分析和处理。
+  * **insight (智能洞察)**：自动洞察器。自动地从多维数据中发现数据洞察。
+  * **ckb (图表知识库)**：图表知识库。基于经验总结的关于可视化和图表的各种基本知识和观察，它是智能图表推荐的基石。
+  * **advisor (图表推荐和自动生成)**：图表建议官。基于数据和分析需求来推荐图表类型和具体的图表细节设置，也可对既有的图表进行图表优化。
+
+* [@antv/ava-react](https://www.npmjs.com/package/@antv/ava-react)：React 组件库，提供了解读文本模块 NTV 的组件。在数据分析的全流程展示中，使用文本描述数据现象和给出洞察结论同样是非常关键的，NTV 就是针对该场景的解决方案，它可以完成数据分析解读文本的展示。
+
+## ✨ AVA 的特性
+
+* 智能式驱动：集自动化、智能化于一体，简化可视分析过程。
+* 丰富的功能：其功能覆盖数据分析全过程，链接人和数据，联通数据分析链条上的“最后一公里”。
+* 灵活的语法：内置丰富的配置项，支持自定义。
 
 ## 📑 文档
-+ <a href='https://ava.antv.antgroup.com/guide/intro' target='_blank'>入门教程</a>
-+ <a href='https://ava.antv.antgroup.com/api/ckb/ckb' target='_blank'>API文档</a>
-+ <a href='https://ava.antv.antgroup.com/examples' target='_blank'>图表示例</a>
+
+* <a href='https://ava.antv.antgroup.com/guide/intro' target='_blank'>入门教程</a>
+* <a href='https://ava.antv.antgroup.com/api/ckb/ckb' target='_blank'>API文档</a>
+* <a href='https://ava.antv.antgroup.com/examples' target='_blank'>图表示例</a>
 
 ## 💻 开始使用
+
 可以通过 NPM 包管理器来安装。
+
 ```bash
 $ npm install @antv/ava
 $ npm install @antv/ava-react
 ```
 
 安装成功后，可以使用 import 导入 AVA 中的功能函数或者组件。
+
 ```html
 <div id="mountNode"></div>
 ```
+
 ```js
 import { getInsights } from '@antv/ava';
 import { InsightCard } from '@antv/ava-react';
@@ -78,6 +89,7 @@ ReactDOM.render(
 ```
 
 ## 🔧 开发
+
 ```bash
 # install the dependency packages 
 $ npm install
@@ -126,9 +138,3 @@ Chen, Q., Sun, F., Xu, X., Chen, Z., Wang, J. and Cao, N., 2021. VizLinter: A Li
 ## ❗ 许可证
 
 MIT@[AntV](https://github.com/antvis).
-
-<!-- ## npm 包
-
-### [@antv/ava](https://github.com/antvis/AVA/blob/master/packages/ava)
-
-### [@antv/ava-react](https://github.com/antvis/AVA/tree/master/packages/ava-react) -->
